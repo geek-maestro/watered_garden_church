@@ -9,11 +9,6 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Hero />
-      <About />
-      <Donation />
-      <Ministries /> */}
-      {/* <Events /> */}
       <Home />
       <UserManagement />
       <Users />
