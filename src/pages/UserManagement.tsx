@@ -9,18 +9,21 @@ const UserManagement = () => {
       content: "A visual representation of user sign-ups over time.",
       label: "view",
       route: "/user_analytics",
+      icon: ""
     },
     {
       title: "church mambers",
       content: "A visual representation of user sign-ups over time.",
       label: "view",
       route: "/users",
+      icon: ""
     },
     {
       title: "pastors",
       content: "A visual representation of user sign-ups over time.",
       label: "view",
       route: "/users",
+      icon: ''
     },
   ];
   return (

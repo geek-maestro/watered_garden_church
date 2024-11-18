@@ -1,7 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({ items }) => {
+interface CardProps {
+  items: {
+    icon: React.ReactNode;
+    title: string;
+    content: string;
+    label: string;
+    route: string;
+  }
+}
+
+const Card = ({ items }: CardProps) => {
   const { icon, title, content, label } = items;
   return (
     <Link to={items.route} className="h-[250px] relative w-[250px] p-5 rounded-lg bg-primary">
