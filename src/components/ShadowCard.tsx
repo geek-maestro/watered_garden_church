@@ -1,6 +1,12 @@
-import React from 'react'
+// import React from 'react'
 
-const ShadowCard = ({item}) => {
+interface CardItem {
+  label: string;
+  number: string;
+  content: string;
+}
+
+const ShadowCard = ({ item }: { item: CardItem }) => {
     const { label, number, content } = item;
   return (
     <div className='rounded-lg shadow-sm shadow-black max-w-[350px] h-[200px] gap-3 w-[300px] items-center justify-center flex flex-col p-5'>

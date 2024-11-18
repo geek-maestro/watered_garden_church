@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
 const Navbar = () => {
   const navs = ["home", "sermons", "ministries", "events", "news", "donations"];
-  const [ active, setActive ] = useState('home')
+  // const [ active, setActive ] = useState('home')
 
   return (
     <header className="max-h-[200px] border-b border-b-secondary">
